@@ -9,4 +9,4 @@ class Asteroid(
   radius: Double,
   mass: Double
 ) :
-  SpaceObject("Asteroid", '.', initialPosition, Vector2D(0.0,0.0), radius, mass)
+  SpaceObject("Asteroid", '.', initialPosition, initialVelocity, radius, mass)
